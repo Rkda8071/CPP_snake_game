@@ -1,0 +1,2 @@
+﻿  C++_snake_game.cpp
+E:\OneDrive\국민대 관련 자료\2학년\1학기\c++프로그래밍\과제\스네이크 게임\C++_snake_game\CPP_SNAKE_GAME\C++_snake_game.cpp(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'curses.h': No such file or directory

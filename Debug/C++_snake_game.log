@@ -1,0 +1,11 @@
+﻿  C++_snake_game.cpp
+C:\Users\gangm\Desktop\asdf\C++_snake_game.cpp(25,1): warning C4005: 'KEY_UP': 매크로 재정의
+C:\Users\gangm\Desktop\asdf\curses.h(626): message : 'KEY_UP'의 이전 정의를 참조하십시오.
+C:\Users\gangm\Desktop\asdf\C++_snake_game.cpp(26,1): warning C4005: 'KEY_LEFT': 매크로 재정의
+C:\Users\gangm\Desktop\asdf\curses.h(627): message : 'KEY_LEFT'의 이전 정의를 참조하십시오.
+C:\Users\gangm\Desktop\asdf\C++_snake_game.cpp(27,1): warning C4005: 'KEY_RIGHT': 매크로 재정의
+C:\Users\gangm\Desktop\asdf\curses.h(628): message : 'KEY_RIGHT'의 이전 정의를 참조하십시오.
+C:\Users\gangm\Desktop\asdf\C++_snake_game.cpp(28,1): warning C4005: 'KEY_DOWN': 매크로 재정의
+C:\Users\gangm\Desktop\asdf\curses.h(625): message : 'KEY_DOWN'의 이전 정의를 참조하십시오.
+C:\Users\gangm\Desktop\asdf\C++_snake_game.cpp(123,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  C++_snake_game.vcxproj -> C:\Users\gangm\Desktop\asdf\Debug\C++_snake_game.exe
