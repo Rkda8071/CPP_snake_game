@@ -200,6 +200,7 @@ void drawMission() {
         else
             printw("( )");
     }
+    
 }
 void render() { //맵 랜더기 
     clear();
@@ -211,11 +212,12 @@ void render() { //맵 랜더기
 
 void game_over() { // 게임오버 관련 처리기
     is_gameover = true;
-    input_map("gameover.txt");
+    input_map("GAMEOVER.txt");
     clear();
     drawMap();
-    drawScore();
+    printw("\n\n\n\n\n\n\n.");
     drawMission();
+    drawScore();
     refresh();
 }
 
@@ -384,7 +386,6 @@ int main()
             game_over();
         }
         if (snackSize <= 3) game_over();
-        
     }
     endwin(); // Curses 모드 종료
     return 0;
